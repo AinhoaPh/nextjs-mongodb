@@ -1,6 +1,6 @@
 "use server"
 import {conectaDB} from "@/lib/db/mongodb";
-import Usuario from "@/lib/db/models/usuario";
+import Usuario from "@/lib/db/usuario";
 
 // reavlidar la ruta para atualizar la pag que modifique
 import { revalidatePath } from "next/cache";
